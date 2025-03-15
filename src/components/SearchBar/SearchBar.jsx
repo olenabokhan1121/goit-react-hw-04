@@ -13,7 +13,12 @@ export default function SearchBar({ onSearch }) {
       }}
     >
       <Form className={css.form}>
-        <Field className={css.input} type="text" name="topic" />
+        <Field
+          className={css.input}
+          type="text"
+          name="topic"
+          placeholder="Введіть запит..."
+        />
         <button className={css.button} type="submit">
           Search
         </button>
